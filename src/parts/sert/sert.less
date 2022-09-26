@@ -19,49 +19,19 @@
   &__img{
     max-height: 100%;
     max-width: 100%;   
-  margin:auto
+    margin:auto;
+    width:auto!important;
   }
   
   &__a{
     display: inline-flex;
-    visibility: hidden;
     height: 280px;
-    
+    width: 100%;
     object-fit: contain;
   }
-  
-  &__a.glide__slide--active,&__a.glide__slide--active+a,&__a.glide__slide--active+a+a{
-    visibility: visible;
-  } 
+
   
   
 }
 
-.glide {
-  position: relative;
-  &__arrow{
-    position: absolute;
-    top:50%;
-    background-color: @diagram-dark;
-    color:@darkest;
-    width: 1em;
-    height:1em;
-    border-radius: 50%;
-    text-align: center;
-    padding-bottom: 1.3em;
-    cursor: pointer;
-    
-    &:hover{
-      background-color: lighten(@diagram-dark, 30%);
-    }
-    
-    &--right{
-      right:-40px;
-    }
-    
-    &--left{
-      left:-40px;
-    }
-  }
-}
 

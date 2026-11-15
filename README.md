@@ -23,13 +23,11 @@ python3 -m http.server 8099
 
 ## Старое (не используется)
 
-`src/`, `gulpfile.js`, `package.json`, `bundle.min.css`, `l3-bundle.min.css`
-и папки демо (`sauna/`, `center_lp/`, `aramzo/`, `zr-podpiska/`, `portfolio/`,
-`seo/`, `sandbox/`) остались от версии 2020 года. Демо доступны по прямым
-ссылкам из блока «Архив» и из старых URL.
-
-Важно: `gulp` из этого репозитория по-прежнему собирает `index.html` из
-`src/index.pug` и перезапишет новую страницу. Не запускайте старую сборку.
+`bundle.min.css`, `l3-bundle.min.css` и папки демо (`sauna/`, `center_lp/`,
+`aramzo/`, `zr-podpiska/`, `portfolio/`, `seo/`, `sandbox/`) остались от версии
+2020 года. Демо доступны по прямым ссылкам из блока «Архив» и из старых URL.
+Сборка Gulp и исходники Pug/Less удалены, страница правится напрямую в
+`index.html`.
 
 ## Обновление OG-картинки
 

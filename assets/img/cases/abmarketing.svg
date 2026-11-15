@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="t">
+  <title id="t">Схема контура АБ МАРКЕТИНГ: 1С-Битрикс, REST API, Битрикс24 и эксплуатация</title>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#12151A" stroke-opacity=".05"/>
+    </pattern>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10z" fill="#1F5EFF"/>
+    </marker>
+    <style>
+      .box{fill:#fff;stroke:#D6DCE6}
+      .box--accent{fill:#EDF2FF;stroke:#B9CDFF}
+      .label{font-family:'Helvetica Neue',Arial,sans-serif;font-size:24px;font-weight:600;fill:#12151A}
+      .cap{font-family:'IBM Plex Mono',Menlo,Consolas,monospace;font-size:15px;fill:#5D6673}
+      .mono{font-family:'IBM Plex Mono',Menlo,Consolas,monospace;font-size:15px;fill:#1F5EFF;letter-spacing:.08em}
+      .line{stroke:#1F5EFF;stroke-width:2;fill:none}
+    </style>
+  </defs>
+
+  <rect width="1200" height="750" fill="#F5F7FB"/>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+
+  <text x="60" y="62" class="mono">АБ МАРКЕТИНГ · КОНТУР</text>
+  <text x="60" y="92" class="cap">высоконагруженные сайты, обмены и эксплуатация</text>
+
+  <rect x="60" y="130" width="310" height="110" rx="14" class="box"/>
+  <text x="90" y="176" class="label">1С-Битрикс</text>
+  <text x="90" y="205" class="cap">D7 · ORM · компоненты</text>
+
+  <path class="line" d="M370 185h70" marker-end="url(#b)"/>
+  <path class="line" d="M760 185h70" marker-end="url(#b)"/>
+
+  <rect x="450" y="130" width="310" height="110" rx="14" class="box box--accent"/>
+  <text x="480" y="176" class="label">REST API</text>
+  <text x="480" y="205" class="cap">OpenAPI · Swagger</text>
+
+  <rect x="840" y="130" width="300" height="110" rx="14" class="box"/>
+  <text x="870" y="176" class="label">Внешние сервисы</text>
+  <text x="870" y="205" class="cap">синхронизация, ретраи</text>
+
+  <rect x="60" y="300" width="1080" height="120" rx="14" class="box"/>
+  <text x="90" y="348" class="label">Битрикс24, коробка</text>
+  <text x="90" y="378" class="cap">сквозные бизнес-процессы · CRM-воронки · двусторонний обмен данными</text>
+  <text x="1108" y="368" class="mono" text-anchor="end">02</text>
+
+  <rect x="60" y="480" width="1080" height="120" rx="14" class="box"/>
+  <text x="90" y="528" class="label">Эксплуатация</text>
+  <text x="90" y="558" class="cap">Zabbix · 10+ серверов · Docker Compose · Nginx/Apache · Bash</text>
+  <text x="1108" y="548" class="mono" text-anchor="end">03</text>
+
+  <text x="60" y="680" class="cap">ускорение генерации страниц в 1,5–2 раза · восстановление после кибератаки</text>
+</svg>

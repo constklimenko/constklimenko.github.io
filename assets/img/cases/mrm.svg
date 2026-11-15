@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="t">
+  <title id="t">Схема бэкенда MRM: VK Реклама API, ETL на Laravel, ClickHouse и MySQL, отчёты и REST API</title>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#12151A" stroke-opacity=".05"/>
+    </pattern>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10z" fill="#1F5EFF"/>
+    </marker>
+    <style>
+      .bg{fill:#F5F7FB}
+      .box{fill:#fff;stroke:#D6DCE6}
+      .box--accent{fill:#EDF2FF;stroke:#B9CDFF}
+      .label{font-family:'Helvetica Neue',Arial,sans-serif;font-size:26px;font-weight:600;fill:#12151A}
+      .cap{font-family:'IBM Plex Mono',Menlo,Consolas,monospace;font-size:16px;fill:#5D6673}
+      .mono{font-family:'IBM Plex Mono',Menlo,Consolas,monospace;font-size:15px;fill:#1F5EFF;letter-spacing:.08em}
+      .line{stroke:#1F5EFF;stroke-width:2;fill:none}
+    </style>
+  </defs>
+
+  <rect width="1200" height="750" fill="#F5F7FB"/>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+
+  <text x="60" y="62" class="mono">MRM · МАРКЕТИНГОВАЯ АНАЛИТИКА</text>
+  <text x="60" y="92" class="cap">два бэкенда, ETL и отчёты для 2 000+ сотрудников</text>
+
+  <rect x="120" y="130" width="960" height="96" rx="14" class="box"/>
+  <text x="156" y="173" class="label">VK Реклама API</text>
+  <text x="156" y="202" class="cap">кампании · объявления · расходы</text>
+  <text x="1040" y="185" class="mono" text-anchor="end">01</text>
+
+  <path class="line" d="M600 226v38" marker-end="url(#a)"/>
+
+  <rect x="120" y="264" width="960" height="96" rx="14" class="box box--accent"/>
+  <text x="156" y="307" class="label">ETL на Laravel</text>
+  <text x="156" y="336" class="cap">Jobs · очереди · Redis</text>
+  <text x="1040" y="319" class="mono" text-anchor="end">02</text>
+
+  <path class="line" d="M600 360v38" marker-end="url(#a)"/>
+
+  <rect x="120" y="398" width="960" height="96" rx="14" class="box"/>
+  <text x="156" y="441" class="label">ClickHouse + MySQL</text>
+  <text x="156" y="470" class="cap">миллионы строк рекламных логов · справочники</text>
+  <text x="1040" y="453" class="mono" text-anchor="end">03</text>
+
+  <path class="line" d="M600 494v38" marker-end="url(#a)"/>
+
+  <rect x="120" y="532" width="960" height="96" rx="14" class="box"/>
+  <text x="156" y="575" class="label">Отчёты и REST API</text>
+  <text x="156" y="604" class="cap">затраты → лиды → CPL → конверсии · Swagger/OpenAPI</text>
+  <text x="1040" y="587" class="mono" text-anchor="end">04</text>
+</svg>
